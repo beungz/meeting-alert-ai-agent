@@ -38,7 +38,6 @@ Microphone -> [Listener Thread] -> audio_queue
 
 **Design rationale:** Whisper `small` was chosen over `base` or `tiny` for its substantially lower WER on financial vocabulary without exceeding real-time speed on an RTX 4060. PocketSphinx is kept as the non-DL baseline to demonstrate how much transcription quality affects downstream detection.
 
-Whisper is loaded inside a daemon thread with `torch.cuda.init()` pre-warming the CUDA DLLs in the main thread. This avoids a `ctranslate2` deadlock that occurs on Windows when the DLL loader lock is held during model init.
 
 ### Planning — Topic Detection
 
@@ -55,7 +54,7 @@ Whisper is loaded inside a daemon thread with `torch.cuda.init()` pre-warming th
 
 ## Evaluation Approach
 
-Evaluation uses three sections, all operating on the **same stratified sample** of 15-second audio chunks drawn from five annotated earnings-call recordings.
+Evaluation uses three sections, all operating on the same stratified sample of 15-second audio chunks drawn from five annotated earnings-call recordings.
 
 ### Test Data
 
@@ -65,9 +64,9 @@ Evaluation uses three sections, all operating on the **same stratified sample** 
 
 ### Sampling Strategy
 
-A stratified sample of up to 40 chunks per file is drawn, keeping **all positive chunks** when they fit within the budget, then filling the remaining slots with evenly-spaced negatives. This produces ~50% positive rate across the ~200-chunk shared evaluation set, ensuring Precision/Recall/F1 metrics are meaningful and directly comparable across all sections.
+A stratified sample of up to 40 chunks per file is drawn, keeping all positive chunks when they fit within the budget, then filling the remaining slots with evenly-spaced negatives. This produces ~50% positive rate across the ~200-chunk shared evaluation set, ensuring Precision/Recall/F1 metrics are meaningful and directly comparable across all sections.
 
-The LLM budget is capped at 50 chunks (also stratified, ~50% positive). **The same 50 chunks are used for both Section 2 and Section 3 LLM rows**, so the Section 2 vs Section 3 gap isolates the pure cost of transcription errors.
+The LLM budget is capped at 50 chunks (also stratified, ~50% positive). The same 50 chunks are used for both Section 2 and Section 3 LLM rows, so the Section 2 vs Section 3 gap isolates the pure cost of transcription errors.
 
 Sampling decisions are saved to `eval_sample_cache.json`. Delete this file to re-sample.
 
@@ -81,7 +80,7 @@ Each planner receives the ground-truth text (no transcription errors). Precision
 
 ### Section 3 — End-to-End: Precision/Recall/F1 on Transcribed Audio (Real World)
 
-Each planner receives the transcription from Section 1. The gap between Section 2 and Section 3 on identical chunks is the **pure perception penalty** caused by transcription errors.
+Each planner receives the transcription from Section 1. The gap between Section 2 and Section 3 on identical chunks is the pure perception penalty caused by transcription errors.
 
 ### Results
 
@@ -96,16 +95,16 @@ Each planner receives the transcription from Section 1. The gap between Section 
 
 **Section 2 — Planning on Ground-Truth Text (upper bound)**
 
-| Planning Mode | Prec | Rec | F1 | N |
+| Planning Mode | Precision | Recall | F1 | N |
 |---|---|---|---|---|
 | LLM (Qwen 2.5) | 0.828 | 0.960 | 0.889 | 50* |
-| Non-DL (Keywords) | 0.775 | 1.000 | 0.873 | 200 |
 | LLM (Gemma 2) | 0.767 | 0.920 | 0.836 | 50* |
 | Transformer (Embeddings) | 0.919 | 0.680 | 0.782 | 200 |
+| Non-DL (Keywords) | 0.775 | 1.000 | 0.873 | 200 |
 
 **Section 3 — End-to-End (real-world, same chunks as Section 2)**
 
-| Perception | Planning | Prec | Rec | F1 | N |
+| Perception | Planning | Precision | Recall | F1 | N |
 |---|---|---|---|---|---|
 | Whisper | LLM (Qwen 2.5) | 0.846 | 0.880 | 0.863 | 50* |
 | Whisper | LLM (Gemma 2) | 0.647 | 0.880 | 0.746 | 50* |
@@ -133,9 +132,6 @@ In `app.py`, the Scribe worker passes the previous chunk's transcript as `initia
 
 **3. Keyword matching needs a low hit threshold for PocketSphinx output.**
 The first implementation required 2 keyword hits per chunk. This caused many false negatives with PocketSphinx because one word of a two-word financial term was commonly dropped or mis-transcribed. Switching to single-hit (any content word OR bigram match) recovered significant recall without harming precision on the Whisper pipeline.
-
-**4. Evaluation dataset design matters more than metric selection.**
-An early version compared Section 2 and Section 3 on datasets with different class distributions (12% vs 70% positive), making E2E appear better than the upper-bound planner — an impossible result. The fix was a single shared stratified sample (~50% positive) used identically across all three sections.
 
 ---
 
@@ -210,9 +206,8 @@ pip install -r requirements.txt
 
 **Start Ollama (required for LLM planning modes):**
 ```
-ollama serve
-ollama pull qwen2.5
-ollama pull gemma2:2b
+ollama run qwen2.5
+ollama run gemma2:2b
 ```
 
 **Run the live agent:**
@@ -223,7 +218,7 @@ streamlit run app.py
 **Run offline evaluation (~2 hours, GPU recommended):**
 ```
 python eval.py 
-# on Windows:
+# On Windows:
 py eval.py
 ```
 
@@ -234,7 +229,7 @@ Alternatively, open `test_evaluation.ipynb` and run all cells in order for an in
 **Process raw transcripts (one-time setup):**
 ```
 python transcript_processing.py
-# on Windows:
+# On Windows:
 py transcript_processing.py
 ```
 Or run the corresponding cells in `test_evaluation.ipynb`.
