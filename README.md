@@ -85,34 +85,41 @@ Each planner receives the transcription from Section 1. The gap between Section 
 
 ### Results
 
-*(Numbers below are placeholder estimates. Run `test_evaluation.ipynb` or `python eval.py` to populate with real results, then update this table.)*
+*200 shared chunks (100 positive, 50%) across 5 earnings-call files. LLM rows use a stratified 50-chunk subset (25 positive, 50%) identical between Section 2 and Section 3. Full output: `eval_results/eval_20260421_014311.txt`.*
 
 **Section 1 — Perception (WER, lower is better)**
 
 | Model | Avg WER | Chunks |
 |---|---|---|
-| Whisper (small) | — | 200 |
-| PocketSphinx | — | 200 |
+| Whisper (small) | 0.470 | 200 |
+| PocketSphinx | 0.878 | 200 |
 
 **Section 2 — Planning on Ground-Truth Text (upper bound)**
 
 | Planning Mode | Prec | Rec | F1 | N |
 |---|---|---|---|---|
-| LLM (Qwen 2.5) | — | — | — | 50* |
-| LLM (Gemma 2) | — | — | — | 50* |
-| Transformer (Embeddings) | — | — | — | 200 |
-| Non-DL (Keywords) | — | — | — | 200 |
+| LLM (Qwen 2.5) | 0.828 | 0.960 | 0.889 | 50* |
+| Non-DL (Keywords) | 0.775 | 1.000 | 0.873 | 200 |
+| LLM (Gemma 2) | 0.767 | 0.920 | 0.836 | 50* |
+| Transformer (Embeddings) | 0.919 | 0.680 | 0.782 | 200 |
 
 **Section 3 — End-to-End (real-world, same chunks as Section 2)**
 
 | Perception | Planning | Prec | Rec | F1 | N |
 |---|---|---|---|---|---|
-| Whisper | LLM (Qwen 2.5) | — | — | — | 50* |
-| Whisper | LLM (Gemma 2) | — | — | — | 50* |
-| Whisper | Transformer (Embeddings) | — | — | — | 200 |
-| PocketSphinx | Non-DL (Keywords) | — | — | — | 200 |
+| Whisper | LLM (Qwen 2.5) | 0.846 | 0.880 | 0.863 | 50* |
+| Whisper | LLM (Gemma 2) | 0.647 | 0.880 | 0.746 | 50* |
+| Whisper | Transformer (Embeddings) | 0.873 | 0.620 | 0.725 | 200 |
+| PocketSphinx | Non-DL (Keywords) | 0.756 | 0.310 | 0.440 | 200 |
 
-*\* LLM rows use 50 stratified chunks with ~50% positive rate — identical between Section 2 and Section 3.*
+*\* LLM rows use 50 stratified chunks with 50% positive rate — identical between Section 2 and Section 3.*
+*Note: Whisper runs without rolling context in eval; live-agent performance is typically higher.*
+
+**Key observations:**
+- **Whisper + Qwen 2.5** is the best combination (F1 0.863). The Section 2 → Section 3 gap is only 0.026 (0.889 → 0.863), meaning Qwen 2.5 is robust to Whisper's transcription errors.
+- **Keywords has perfect recall on ground-truth text** (Rec 1.000, F1 0.873) but collapses to recall 0.310 and F1 0.440 with PocketSphinx. This is the largest Section 2 → Section 3 gap (0.873 → 0.440 = −0.433), confirming the bottleneck is entirely in PocketSphinx transcription quality (WER 0.878), not the detection logic.
+- **Embeddings shows high precision but low recall** (GT: Prec 0.919, Rec 0.680). Recall stays low end-to-end (0.620), indicating the cosine similarity threshold misses valid chunks even on clean text. The threshold (currently 0.45) could be tuned down at the cost of precision.
+- **Gemma 2 F1 drops more than Qwen 2.5** (0.836 → 0.746 = −0.090 vs 0.889 → 0.863 = −0.026), suggesting Gemma 2 is more sensitive to transcription noise.
 
 ---
 
