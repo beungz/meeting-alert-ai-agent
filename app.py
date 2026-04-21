@@ -233,7 +233,7 @@ if 'sys_state' not in st.session_state:
     }
 
 if 'topics' not in st.session_state:
-    st.session_state.topics = [{"uid": 0, "text": "Why did net profit drop significantly last year?"}]
+    st.session_state.topics = [{"uid": 0, "text": "Sales Growth"}]
     st.session_state.topic_uid_counter = 1
 
 if 'initial_context' not in st.session_state:
@@ -243,7 +243,7 @@ sys = st.session_state.sys_state
 
 # --- SIDEBAR ---
 with st.sidebar:
-    st.markdown("<div style='font-size:1.1rem;font-weight:700;margin-bottom:0.4rem;'>⚙️ Agent Configuration</div>", unsafe_allow_html=True)
+    st.markdown("<div style='font-size:1.1rem;font-weight:700;margin-bottom:0.4rem;'>Agent Configuration</div>", unsafe_allow_html=True)
 
     # ---- Multi-Topic Management ----
     st.markdown("<div style='font-size:0.85rem;font-weight:600;color:#aaa;margin-bottom:4px;'>MONITORING TOPICS</div>", unsafe_allow_html=True)
@@ -296,10 +296,10 @@ with st.sidebar:
     )
     plan_mode = st.selectbox("Planning Model (Brain)", plan_options)
 
-    with st.expander("📋 Meeting Context", expanded=False):
+    with st.expander("Meeting Context", expanded=False):
         st.markdown(
             "<div style='font-size:0.76rem;color:#888;margin-bottom:5px;line-height:1.4;'>"
-            "ℹ️ Used by <b>Whisper</b> (improves transcription accuracy from the first chunk) "
+            "Used by <b>Whisper</b> (improves transcription accuracy from the first chunk) "
             "and <b>LLM Ollama</b> planning models (reduces false-positive alerts). "
             "Not used by PocketSphinx or Transformer/Keywords modes."
             "</div>",
@@ -328,7 +328,7 @@ with st.sidebar:
         fingerprint = name_lower[:35]
         if fingerprint not in seen_devices:
             seen_devices.add(fingerprint)
-            tag = "🎧 [ZOOM/TEAMS]" if any(x in name_lower for x in ["cable", "loopback", "stereo mix"]) else "🎤 [PHYSICAL MIC]"
+            tag = "[ZOOM/TEAMS]" if any(x in name_lower for x in ["cable", "loopback", "stereo mix"]) else "[PHYSICAL MIC]"
             device_names.append(f"{i}: {tag} {d['name']}")
 
     selected_device_str = st.selectbox("Audio Input Source", device_names)
@@ -381,7 +381,7 @@ st.markdown("---")
 
 # Navigation bar
 alert_options = {
-    a["time"]: f"[{a.get('topic_id','?')}] 🚨 {a['snippet']}"
+    a["time"]: f"[{a.get('topic_id','?')}] {a['snippet']}"
     for a in st.session_state.history_alerts
 }
 alert_choices = ["-- Auto-Scroll to Live Audio --"] + list(alert_options.values())
@@ -390,9 +390,9 @@ nav_col1, nav_col2, nav_col3 = st.columns([2.4, 0.9, 0.9])
 with nav_col1:
     selected_label = st.selectbox("Jump to detected topic:", alert_choices, label_visibility="collapsed")
 with nav_col2:
-    live_update = st.checkbox("🔄 Live Refresh", value=True)
+    live_update = st.checkbox("Live Refresh", value=True)
 with nav_col3:
-    if st.button("🗑️ Clear All", type="secondary", use_container_width=True):
+    if st.button("Clear All", type="secondary", use_container_width=True):
         st.session_state.history_short.clear()
         st.session_state.history_long.clear()
         st.session_state.history_alerts.clear()
@@ -407,13 +407,13 @@ st.markdown("---")
 col_short, col_long, col_alert = st.columns([1, 1, 1])
 
 with col_short:
-    st.markdown("<div class='col-header'>📝 Short Transcript</div>", unsafe_allow_html=True)
+    st.markdown("<div class='col-header'>Short Transcript</div>", unsafe_allow_html=True)
     short_container = st.empty()
 with col_long:
-    st.markdown("<div class='col-header'>📜 Continuous Context</div>", unsafe_allow_html=True)
+    st.markdown("<div class='col-header'>Continuous Context</div>", unsafe_allow_html=True)
     long_container = st.empty()
 with col_alert:
-    st.markdown("<div class='col-header'>🚨 Attention Alerts</div>", unsafe_allow_html=True)
+    st.markdown("<div class='col-header'>Attention Alerts</div>", unsafe_allow_html=True)
     alert_container = st.empty()
 
 # --- CSS ---
