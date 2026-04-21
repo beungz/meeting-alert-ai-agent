@@ -1,0 +1,60 @@
+    (torch CUDA pre-init: NVIDIA GeForce RTX 4060 Laptop GPU)
+    (model cached — loading from disk…)
+  Sample saved: eval_sample_cache.json  (delete to re-sample)
+  Full corpus   : 5 files | 1079 chunks | 100 positive (9.3%)
+  Shared sample : 200 chunks | 100 positive (50.0%) | <=40/file, all positives preserved
+  LLM subset    : 50 chunks | 25 positive (50.0%) | stratified from shared set
+  Topics        : 10 (dividend, gross margin, inventory, capital allocation, net income, operating income, pricing, capex, investment portfolio, sales growth)
+  Sec 2 vs Sec 3 on identical chunks — gap = perception penalty.
+====================================================================
+          SECTION 1  ·  PERCEPTION — Word Error Rate (WER)          
+====================================================================
+  Shared evaluation set: 200 chunks across 5 files (100 positive, 50.0%)
+  (Stratified per file: all positives kept when under budget, proportional otherwise; max 40/file)
+
+  ✓ 4462231  (40 chunks, 27 positive)          
+  ✓ 4474506  (40 chunks, 28 positive)          
+  ✓ 4485192  (40 chunks, 31 positive)          
+  ✓ 4485206  (40 chunks, 8 positive)          
+  ✓ 4485244  (40 chunks, 6 positive)          
+
+  Model                    Avg WER   Chunks
+  ──────────────────────  ────────  ───────
+  Whisper (small)           0.4697      200
+  PocketSphinx              0.8777      200
+
+  Lower WER = better. WER 1.0 means as many errors as reference words.
+====================================================================
+           SECTION 2  ·  PLANNING — on Ground Truth Text           
+====================================================================
+  (Same chunks as Sec 1/3 — GT text gives the upper bound for planning)
+
+  Shared set : 200 chunks | 100 positive (50.0%)
+  LLM subset : 50 chunks | 25 positive (50.0%)  [stratified — same subset used in Sec 3]
+
+  Planning Mode                     Prec     Rec      F1    TP    FP    FN       N
+  ──────────────────────────────  ──────  ──────  ──────  ────  ────  ────  ──────
+  LLM (Qwen 2.5)                   0.828   0.960   0.889    24     5     1     50*    
+  LLM (Gemma 2)                    0.767   0.920   0.836    23     7     2     50*    
+  Transformer (Embeddings)         0.919   0.680   0.782    68     6    32    200     
+  Non-DL (Keywords)                0.775   1.000   0.873   100    29     0    200     
+
+  * LLM subset: 50 stratified chunks (25 positive, 50.0%) — identical to Sec 3 LLM rows.
+====================================================================
+                SECTION 3  ·  END-TO-END EVALUATION                
+====================================================================
+  (Same chunks as Sec 1/2 — transcribed text reveals perception penalty)
+
+  Shared set : 200 transcribed chunks (100 positive, 50.0%)
+  LLM subset : 50 chunks (25 positive, 50.0%)  [same subset as Sec 2 LLM rows]
+
+  Perception        Planning                          Prec     Rec      F1    TP    FP    FN       N
+  ────────────────  ──────────────────────────────  ──────  ──────  ──────  ────  ────  ────  ──────
+  Whisper           LLM (Qwen 2.5)                   0.846   0.880   0.863    22     4     3     50*    
+  Whisper           LLM (Gemma 2)                    0.647   0.880   0.746    22    12     3     50*    
+  Whisper           Transformer (Embeddings)         0.873   0.620   0.725    62     9    38    200     
+  PocketSphinx      Non-DL (Keywords)                0.756   0.310   0.440    31    10    69    200     
+
+  * LLM rows: 50 chunks (stratified, same as Sec 2 LLM rows).
+  Note: Whisper here has no rolling context (independent chunks).
+        Live-agent performance with rolling context is typically higher.

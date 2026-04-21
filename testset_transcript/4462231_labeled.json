@@ -1,0 +1,998 @@
+[
+    {
+        "start_time": 0.0,
+        "end_time": 15.0,
+        "text": "Good day and welcome to the Texas Instruments q three twenty twenty one earnings release conference call. Today's conference is being recorded.",
+        "topic_present": 0
+    },
+    {
+        "start_time": 15.0,
+        "end_time": 30.0,
+        "text": "At this time, I would like to turn the conference over to Dave Paul, please go ahead. Good afternoon. And thank you for joining our",
+        "topic_present": 0
+    },
+    {
+        "start_time": 30.0,
+        "end_time": 45.0,
+        "text": "third quarter twenty twenty earnings conference call. For any of you who missed the release, you can find it on our website at ti dot com slash ir. This call is being broadcast live over the web and can be accessed through our website.",
+        "topic_present": 0
+    },
+    {
+        "start_time": 45.0,
+        "end_time": 60.0,
+        "text": "A replay will be available through the web. This call will include forward looking statements that involve risk and uncertainties that could cause TI's results to differ materially from management's current expectations.",
+        "topic_present": 0
+    },
+    {
+        "start_time": 60.0,
+        "end_time": 75.0,
+        "text": "We encourage you to review the notice regarding forward looking statements contained in the earnings release published today, as well as TI's most recent S E C filings for a more comp complete description. Our Chief Financial",
+        "topic_present": 0
+    },
+    {
+        "start_time": 75.0,
+        "end_time": 90.0,
+        "text": "Officer Rafael Lizardi is with me today and will provide the following updates. First, I'll start with a quick overview of the quarter. Next, I'll provide insight into third quarter revenue results",
+        "topic_present": 0
+    },
+    {
+        "start_time": 90.0,
+        "end_time": 105.0,
+        "text": "with some details of what we're seeing in respect to the with customers and markets and I'll also provide details by end market, including some sequential performance as we have the last few quarters. As sequential data begins to be",
+        "topic_present": 0
+    },
+    {
+        "start_time": 105.0,
+        "end_time": 120.0,
+        "text": "less insightful, we'll move back to reporting only year over year per our normal practice. And lastly, Rafael will cover the financial results, an update of our capacity expansion plans and our guidance",
+        "topic_present": 0
+    },
+    {
+        "start_time": 120.0,
+        "end_time": 135.0,
+        "text": "for fourth quarter twenty twenty one. Starting with a quick overview of the quarter. Revenue in the quarter was four point six billion dollars, an increase of one percent sequentially and twenty two percent year over year",
+        "topic_present": 0
+    },
+    {
+        "start_time": 135.0,
+        "end_time": 150.0,
+        "text": "driven by demand in industrial automotive and personal electronics. On a sequential basis, analog grew two percent, emb embedded processing declined five percent. On a year over year basis, analog revenue grew",
+        "topic_present": 0
+    },
+    {
+        "start_time": 150.0,
+        "end_time": 165.0,
+        "text": "twenty four percent and embedded processing grew thirteen percent. Our other cycle grew nineteen percent from the year ago quarter. Now let me comment on the current environment to provide some context of what we're seeing with our customers",
+        "topic_present": 0
+    },
+    {
+        "start_time": 165.0,
+        "end_time": 180.0,
+        "text": "and markets. Overall, the quarter came in generally as we expected across the product segments and markets and geographies. Lead times for of the majority of our products remain stable, but hotspots continue to",
+        "topic_present": 0
+    },
+    {
+        "start_time": 180.0,
+        "end_time": 195.0,
+        "text": "exist. However, customers are becoming more selective in their expedite requests, focusing on products that complete a matched set rather than expediting products across the board. This behavior",
+        "topic_present": 0
+    },
+    {
+        "start_time": 195.0,
+        "end_time": 210.0,
+        "text": "is not specific to any product family, end market or geography. Discussions with customers confirm a high level interest in our commitment to expanding our internal manufacturing capacity roadmap,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 210.0,
+        "end_time": 225.0,
+        "text": "including three hundred millimeter wafer FABs rfab two and <unk>, or what we call LFAB and the associated assembly test expansions. These investments to strengthen our manufacturing and technology competitive",
+        "topic_present": 0
+    },
+    {
+        "start_time": 225.0,
+        "end_time": 240.0,
+        "text": "advantage will provide lower costs and greater control of our supply chain. And while there is a growing recognition that the near term supply demand and balance will end at some point, the secular growth of semi",
+        "topic_present": 0
+    },
+    {
+        "start_time": 240.0,
+        "end_time": 255.0,
+        "text": "conductor content per system will continue to grow. And this requires a robust manufacturing capacity roadmap for twenty twenty five and beyond. Moving on, I'll provide some insight into our third quarter revenue",
+        "topic_present": 0
+    },
+    {
+        "start_time": 255.0,
+        "end_time": 270.0,
+        "text": "by end market. First, the industrial market was down mid single digits sequentially and up about forty percent from the year ago. The changes both sequentially and from the year ago were generally consistent",
+        "topic_present": 0
+    },
+    {
+        "start_time": 270.0,
+        "end_time": 285.0,
+        "text": "across the diverse set of sectors. The automotive market again grew sequentially and was up more than twenty percent from the year ago. When comparing to pre pandemic levels of q four two thousand nineteen,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 285.0,
+        "end_time": 300.0,
+        "text": "revenue is up almost thirty percent. Personal electronics grew low double digits sequentially, and was up low double digits compared to a year ago. The strength sequentially in the year ago was due to mobile phones,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 300.0,
+        "end_time": 315.0,
+        "text": "PC notebooks and tablets. Next, communications equipment was down mid single digits sequentially and was down upper teens from a year ago. Enterprise systems",
+        "topic_present": 0
+    },
+    {
+        "start_time": 315.0,
+        "end_time": 330.0,
+        "text": "grew sequentially and from the year ago quarter. Rafael will now review profitability, capital management and our outlook. Thanks Dave and good afternoon everyone. As Dave mentioned, third quarter revenue",
+        "topic_present": 0
+    },
+    {
+        "start_time": 330.0,
+        "end_time": 345.0,
+        "text": "was four point six billion dollars, up twenty two percent from a year ago. Gross profit in the quarter was three point two billion dollars or sixty eight percent of revenue. From a year ago gross profit margin increased three hundred and sixty basis points.",
+        "topic_present": 0
+    },
+    {
+        "start_time": 345.0,
+        "end_time": 360.0,
+        "text": "Operating expenses in the quarter were eight hundred million dollars, up one percent from a year ago and about as expected. On a trailing twelve month basis, operating expenses were eighteen percent of revenue. Over the last twelve months, we have invested",
+        "topic_present": 0
+    },
+    {
+        "start_time": 360.0,
+        "end_time": 375.0,
+        "text": "one point six billion dollars in r and d. Acquisition charges and non cash expense were forty seven million dollars in the third quarter and will go to zero beginning fourth quarter of twenty twenty one. Operating profit was two point three",
+        "topic_present": 0
+    },
+    {
+        "start_time": 375.0,
+        "end_time": 390.0,
+        "text": "billion dollars in the quarter of percent of revenue. Operating profit was up forty three percent from the year ago quarter. Net income in the third quarter was one point nine billion dollars or two dollars and seven cents per share.",
+        "topic_present": 1
+    },
+    {
+        "start_time": 390.0,
+        "end_time": 405.0,
+        "text": "Let me now comment on our capital management results starting with our cash generation. Cash flow from operations was two point four billion dollars in the quarter. Capital expenditures were four hundred and eighty six million dollars in the quarter. Free cashflow on a trailing twelve",
+        "topic_present": 0
+    },
+    {
+        "start_time": 405.0,
+        "end_time": 420.0,
+        "text": "month basis was seven point one billion dollars. In September, we announced we would increase our dividend by thirteen percent effective this month marking our eighteenth consecutive year of dividend increases. In the quarter, we paid nine hundred forty two million",
+        "topic_present": 1
+    },
+    {
+        "start_time": 420.0,
+        "end_time": 435.0,
+        "text": "dollars in dividends and repurchased a hundred thirty nine million dollars of our stock. In total, we have returned four point two billion dollars in the past twelve months. Over the same period, our dividend represented fifty three percent of free cash flow under scoring its",
+        "topic_present": 1
+    },
+    {
+        "start_time": 435.0,
+        "end_time": 450.0,
+        "text": "sustainability. Our balance sheet remains strong with nine point eight billion dollars of cash in short term investments at the end of the third quarter. In the quarter, we've issued one point five billion dollars of debt in three tranches of five hundred million",
+        "topic_present": 0
+    },
+    {
+        "start_time": 450.0,
+        "end_time": 465.0,
+        "text": "dollars each. The first has a coupon of one point one to five percent, which is due five years. The second, at one point nine percent due in ten years and the last at two point seven percent due in thirty years. This resulted in total debt of seven",
+        "topic_present": 0
+    },
+    {
+        "start_time": 465.0,
+        "end_time": 480.0,
+        "text": "point eight billion with a weighted average coupon of two point six percent. Regarding inventory, tier inventory dollars were up seven million dollars from the prior quarter and days were a hundred and twelve. Up one day sequentially, but still below low",
+        "topic_present": 1
+    },
+    {
+        "start_time": 480.0,
+        "end_time": 495.0,
+        "text": "desired levels. For the fourth quarter, we expect TI revenue in the range of four point two two to four point five eight billion dollars and earnings per share to be in the range of a dollar eighty three to two dollars and seven",
+        "topic_present": 0
+    },
+    {
+        "start_time": 495.0,
+        "end_time": 510.0,
+        "text": "cents. The Lehigh acquisition closed last Friday, but the costs are not the included in our guidance. We will provide those details when we report fourth quarter results. Just as a reminder, the purchase price was about nine hundred",
+        "topic_present": 0
+    },
+    {
+        "start_time": 510.0,
+        "end_time": 525.0,
+        "text": "million dollars and we expect ongoing costs of about seventy five million dollars per quarter through twenty twenty two. We continue to expect our annual operating tax rate for twenty twenty one to be about fourteen percent",
+        "topic_present": 0
+    },
+    {
+        "start_time": 525.0,
+        "end_time": 540.0,
+        "text": "and our effective tax rate to be about thirteen percent. As you're looking at your models for twenty twenty two, without any changes to tax law, we would expect our annual operating and effective tax rates to remain about what",
+        "topic_present": 0
+    },
+    {
+        "start_time": 540.0,
+        "end_time": 555.0,
+        "text": "they are this year with a similar quarterly profile of discrete tax benefits that are higher in the first quarter compared to the rest of the year. In closing, we continue to invest to strengthen our competitive advantages",
+        "topic_present": 0
+    },
+    {
+        "start_time": 555.0,
+        "end_time": 570.0,
+        "text": "and in making our business stronger. Our investments in our long term roadmap for capacity expansion, both in l f a b and r f a b two are great examples. As a reminder, our CapEx will be higher on an absolute",
+        "topic_present": 1
+    },
+    {
+        "start_time": 570.0,
+        "end_time": 585.0,
+        "text": "level, as well as a percentage of revenue as we strengthen disadvantage. We are working through detailed plans of our long term roadmap, and we have specifics of timing and CapEx spending in our capital management call",
+        "topic_present": 1
+    },
+    {
+        "start_time": 585.0,
+        "end_time": 600.0,
+        "text": "in February. We continue to believe owning and controlling our supply chain will be of growing strategic importance. With that, let me turn it back to Dave. Thanks. Operator, you can now open the lines up for questions. In order",
+        "topic_present": 0
+    },
+    {
+        "start_time": 600.0,
+        "end_time": 615.0,
+        "text": "to provide as many of you as possible an opportunity to ask a question, please limit yourself to a single question. After our response, we'll provide you an opportunity for an additional follow up. Operator.",
+        "topic_present": 0
+    },
+    {
+        "start_time": 615.0,
+        "end_time": 630.0,
+        "text": "Thank you. If you would like to ask a question, please signal by pressing star one on your telephone key pads and if you're on speaker phone, please make sure your mute function is turned off to allow your signal to reach our equipment. Again, press star one to ask a question. We'll pause just a moment",
+        "topic_present": 0
+    },
+    {
+        "start_time": 630.0,
+        "end_time": 645.0,
+        "text": "to allow everyone an opportunity to signal for questions. And we will go first to John Pitzer of Credit Suisse. Yeah, good afternoon guys. Thanks for letting me ask a question. Dave, I know",
+        "topic_present": 0
+    },
+    {
+        "start_time": 645.0,
+        "end_time": 660.0,
+        "text": "in this sort of environment seasonality doesn't make a lot of sense, but when you look at the September quarter, I, I'm just kind of curious, the, the June quarter came in well above your guidance range. September was, was well above the midpoint, but still within the guidance range.",
+        "topic_present": 0
+    },
+    {
+        "start_time": 660.0,
+        "end_time": 675.0,
+        "text": "We're hearing of logistical constraints and supply can constraints across the economy. I'm kind of curious when you look at sort of the, the, the, the lower level upside in the September quarter versus the June quarter, to what extent might have that been supply constraints outside",
+        "topic_present": 0
+    },
+    {
+        "start_time": 675.0,
+        "end_time": 690.0,
+        "text": "of your control? To what extent do you think its customers just being more selective about what they're pulling from you? Any color there would be helpful. Sure, John. Uh, and, uh, and thanks for the question. Yeah. I, I really think it depends on the customer's, uh,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 690.0,
+        "end_time": 705.0,
+        "text": "bill of material. I think that there are supply constraints that are, you know, widely reported across, uh, different, uh, different components. And, you know, as we, you know, mentioned in, uh, our, uh, uh, prepared remarks, you know, the behavior that we're seeing that's",
+        "topic_present": 0
+    },
+    {
+        "start_time": 705.0,
+        "end_time": 720.0,
+        "text": "different, uh, our customers are showing up and, and requesting, you know, when we have meetings with them rather than showing up long lists of devices, uh, the they're asking us to expedite, uh, they're really just short lists. So they're looking",
+        "topic_present": 0
+    },
+    {
+        "start_time": 720.0,
+        "end_time": 735.0,
+        "text": "for, you know, particular parts that complete those, uh, those match sets so that they, you know, can complete those builds, uh, for them. So, uh, it is a different behavior that we're seeing this quarter versus, uh, the, the prior quarters. So, do you have follow on?",
+        "topic_present": 0
+    },
+    {
+        "start_time": 735.0,
+        "end_time": 750.0,
+        "text": "Yeah, just, just as the follow on, I know you are gonna give us more color about LFAB expenses and, and RFABs expenses as we get into next year, but I'm wondering if you could just help us set the stage a little bit. Next year is obviously going to be kind of a, a capacity build",
+        "topic_present": 0
+    },
+    {
+        "start_time": 750.0,
+        "end_time": 765.0,
+        "text": "out year for you, and I guess all those being equal, how, how should we think about the gross margin impact on calendar year twenty two as, as you layer in these investments? Yeah. Uh, I'll, I'll take that one. Uh, first, uh, you know, as, as",
+        "topic_present": 1
+    },
+    {
+        "start_time": 765.0,
+        "end_time": 780.0,
+        "text": "you know, you noticed for a long time, we don't manage the business to, uh, to gross margins, we manage for the long term growth of, for cash per share. And, uh, and that starts with, uh, driving, uh, the top line. And that's why we're making these investments right to support, uh, revenue",
+        "topic_present": 0
+    },
+    {
+        "start_time": 780.0,
+        "end_time": 795.0,
+        "text": "growth. And as we do that is, uh, is extending our low cost, uh, manufacturing advantage, uh, that gives us, uh, uh, that great structural cost advantage with three hundred millimeter. And in addition to that, uh, we, uh, we're controlling the supply chain. Um,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 795.0,
+        "end_time": 810.0,
+        "text": "uh, and specifically on your question, uh, you know, take r f a b two, uh, all in that's about a six billion dollars, uh, expense, about a billion of that is a building, which, you know, depreciates over thirty years or so. Uh, the balance of, of the rest is equipment and, and",
+        "topic_present": 0
+    },
+    {
+        "start_time": 810.0,
+        "end_time": 825.0,
+        "text": "we're gonna be, uh, putting that equipment starting, uh, next year and over the coming years. Uh, with l f a b, obviously a nine hundred million purchase price, um, and, um, and that some of that is built and some of that is equipment. And then on top of that, we'll put",
+        "topic_present": 0
+    },
+    {
+        "start_time": 825.0,
+        "end_time": 840.0,
+        "text": "about three billion dollars of, of CapEx, uh, over a number of years as we, uh, as we ramp that up. Um, so, uh, we'll, we'll give you, uh, additional details on that and the bigger, longer term picture, uh, of how we're gonna support that, uh, the",
+        "topic_present": 1
+    },
+    {
+        "start_time": 840.0,
+        "end_time": 855.0,
+        "text": "long, longer term growth. We'll give you those details in February at the, at the capital management call. Okay. Thank you. Uh, thank you, John and we'll go to the next caller please. And we'll go next to Timothy Arcuri of U B S. Hi, thanks.",
+        "topic_present": 0
+    },
+    {
+        "start_time": 855.0,
+        "end_time": 870.0,
+        "text": "Um, Rafael, I was, I was wondering if you could talk about pricing. Um, you know, obviously you're seeing some, uh, you know, increases in your input costs. Can you talk about, you know, whether you're passing those on to, um, customers and sort of how ubiquitous",
+        "topic_present": 1
+    },
+    {
+        "start_time": 870.0,
+        "end_time": 885.0,
+        "text": "any, you know, price increases on, uh, you know, your side might be? Yeah, what I would tell you, you know, stratum pricing has not changed. We, we regularly monitor that and our goal is, is to be competitive. Uh, and it's really frankly, independent of the, of the input,",
+        "topic_present": 1
+    },
+    {
+        "start_time": 885.0,
+        "end_time": 900.0,
+        "text": "uh, and the input cost to the large, to the, to the largest degree. Uh, but our goal is to be competitive and, uh, if, uh, prices move higher, we, uh, we adjust those over time and we have been adjusting those over time. Yeah. Follow up Tim? I did, I did Dave,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 900.0,
+        "end_time": 915.0,
+        "text": "thanks. Um, and I, I guess I'll ask the same question that I've asked the last, I think three calls about share repo. Um, it was pretty low again. I guess, is there sort of, can you help us think through maybe what the triggers might be for you to start to buy back more stock?",
+        "topic_present": 0
+    },
+    {
+        "start_time": 915.0,
+        "end_time": 930.0,
+        "text": "Is there a target cash level where maybe you'd say that the balance sheet is getting a little bit over capitalized and you'd start to, you know, buy back more stock? I'm just kind of, you know, obviously you're not buying back much, but, but I'm just kinda wondering if you can talk us through what triggers you might be looking for to start that back",
+        "topic_present": 0
+    },
+    {
+        "start_time": 930.0,
+        "end_time": 945.0,
+        "text": "again. Thanks. Yeah. You know, stepping back and, and just to remind everybody how we think about our returns. Um, our objective is to return all free cash flow to the owners of the company over the long term. And we do that through dividends and, and buybacks. You look at our eighteen year",
+        "topic_present": 0
+    },
+    {
+        "start_time": 945.0,
+        "end_time": 960.0,
+        "text": "history on that, and it's, it is really consistent. In fact, we we've, uh, many years, most years, we've averaged, um, uh, well over a hundred percent, uh, of return. Uh, you know, during that time we have, I would remind you, we have increased the proportion of,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 960.0,
+        "end_time": 975.0,
+        "text": "uh, uh, of the return that comes into dividends, so that, uh, that also plays into that. But, you know, as long as we think, um, the, the buybacks that are creative to, uh, long term owners, we we're gonna have some buybacks. And as you have been, as you pointed out the last three quarters we have, uh,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 975.0,
+        "end_time": 990.0,
+        "text": "uh, in fact, they, I don't think there's been a single quarter in the last eighteen years or so that we have not, uh, purchased a return, uh, on uh, uh, cash to the owners through, uh, through buybacks in one form or another. Okay. Thank you, Tim. And we'll go to the next caller, please.",
+        "topic_present": 0
+    },
+    {
+        "start_time": 990.0,
+        "end_time": 1005.0,
+        "text": "We'll go next to Harlan Sur of JP Morgan. Good afternoon. Thanks for taking my question. Um, on finished goods inventory, most of which I assume is sitting at customer consignment hubs, this has come down faster than overall inventories right. Finished goods dropped 8% sequentially in Q3, dropped 9% in Q2, they're down 25% from the beginning of this",
+        "topic_present": 1
+    },
+    {
+        "start_time": 1005.0,
+        "end_time": 1020.0,
+        "text": "year and down thirty three percent pre covid nineteen, I assume, due to the strong demand profile from your direct customers.",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1020.0,
+        "end_time": 1035.0,
+        "text": "So how far below normal are consignment inventories relative to your customers target levels? And is part of the muted q four outlook to replenish these very low inventories,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1035.0,
+        "end_time": 1050.0,
+        "text": "or does the demand profile backlog and forecast actually reflect a sequential decline here in the fourth quarter? Yeah, so I'll, I'll start and Dave, you wanna chime in, uh, after that. But, uh,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1050.0,
+        "end_time": 1065.0,
+        "text": "uh, I think where you're going with that, let, let me maybe step back. Yeah. Obviously inventory levels are, are below, below desired levels, right? we're at a hundred and twelve days. Our target is a hundred thirty to a hundred ninety days. So, you know, clearly we're well below, uh, where",
+        "topic_present": 1
+    },
+    {
+        "start_time": 1065.0,
+        "end_time": 1080.0,
+        "text": "we want to be. And inside of that, as you pointed out, finished goods, all finished goods, whether it's in consignment or, or at our product distribution centers, uh, are the ones that are de uh, are decreasing most. In fact, uh, even though inventory, total inventory level stayed",
+        "topic_present": 1
+    },
+    {
+        "start_time": 1080.0,
+        "end_time": 1095.0,
+        "text": "above flat, slightly up, uh, second to third, uh, quarter, finished goods, uh, decreased, uh, and then with, uh, raw materials increase a little bit, uh, to, to offset that. Um, so, you know, our goal, um, as soon as capacity increases, if there's",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1095.0,
+        "end_time": 1110.0,
+        "text": "an adjustment in demand, we will build, uh, those inventory levels, uh, back up, uh, to be at a, at more healthy levels and given our business model, it's just a great, uh, a great bet, uh, just given the, the low up lessons of our inventory, the, the diversity",
+        "topic_present": 1
+    },
+    {
+        "start_time": 1110.0,
+        "end_time": 1125.0,
+        "text": "of positions, diversity of products that we can, uh, we can afford. Not only we can afford, it makes sense for us to, to build that inventory, have it ready for the, for the secular growth that, that we're confident will, will happen beyond that. You know, and, and I think maybe tactically where you're going on, on consignment",
+        "topic_present": 1
+    },
+    {
+        "start_time": 1125.0,
+        "end_time": 1140.0,
+        "text": "inventory, frankly, those tend to be pretty lean to begin with. That's that's how that process is designed to just keep a couple weeks. So, uh, I, I, I wouldn't expect that by itself to build significantly purely consignment, uh, where, what I would expect",
+        "topic_present": 1
+    },
+    {
+        "start_time": 1140.0,
+        "end_time": 1155.0,
+        "text": "the, the bill to happen is more at our product distribution centers. And that gives us more flexibility to then, uh, ship where the demand, uh, is, is most needed. Yeah. Do you have <crosstalk> I think that's, uh, I think that that's well said. I think just tactically where we, whether",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1155.0,
+        "end_time": 1170.0,
+        "text": "we keep it in, in our hubs, uh, where we would prefer it, or, um, you know, if we push it out to a consignment center, it'll just be reflective of, uh, our expectation that a customer will pull it. So that's just a, a tactical, uh, tactical decision.",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1170.0,
+        "end_time": 1185.0,
+        "text": "Uh, I'd also point out that, uh, as you said, Rafael, we do plan to bring on more capacity incrementally, uh, as we have each quarter, uh, through this year, uh, and, uh, through the middle of next year,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1185.0,
+        "end_time": 1200.0,
+        "text": "uh, and, uh, in the back half of, uh, of twenty twenty two, r f a b two will, uh, we'll come online, uh, and then that'll be followed by, um, uh, l f a b, uh, since as Rafael pointed out, we did close, uh,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1200.0,
+        "end_time": 1215.0,
+        "text": "on, uh, on that factory on Friday of last week. And, uh, so that is, uh, on target to, uh, to come online in early twenty twenty three, uh, to, uh, to support growth in, in the future. So, did you have a",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1215.0,
+        "end_time": 1230.0,
+        "text": "follow on Harlan? Yeah, thanks. I appreciate the, uh, insightful answer.",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1230.0,
+        "end_time": 1245.0,
+        "text": "Uh, so exiting last year, the direct business which includes consignment, that was about 65% of revenues. Where, where does that mix roughly sit today and did the team drive a positive book to bill ratio in Q3, if you could maybe quantify? Uh, so on the book to bill, we, uh, we don't think that's, that's relevant, frankly, material haven't disclosed that in a, in a while, and we were, we're not, uh, uh, disclosing",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1245.0,
+        "end_time": 1260.0,
+        "text": "that anymore. Uh, on your first question on percent, I think you asked for percent of our revenue from consignment, is that right? Yeah, I didn't quite, uh Yeah, that's the first one. Yeah. Could you just repeat it Harlan so we got, make sure we got it right what you were asking, uh, the first question.",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1260.0,
+        "end_time": 1275.0,
+        "text": "Harlan, are you there? Yeah, just percentage of the overall direct business? Oh, uh, direct business. Yeah. So, yeah, so we left last year, uh, with, uh, um, about, uh, two thirds",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1275.0,
+        "end_time": 1290.0,
+        "text": "of our revenues, uh, uh, direct. Uh, so, um, you know, we expect that that percentage will increase, uh, over time. Uh, you know, we'll provide an update of, uh, of, uh, of what we've done with that, uh, this year in our February call,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1290.0,
+        "end_time": 1305.0,
+        "text": "um, uh, cap management, uh, call in February of, of actually what that looks like. But, uh, just to say over time that we do expect that that will move up, uh, um, uh, you know, slightly, uh, over time. So, and, and,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1305.0,
+        "end_time": 1320.0,
+        "text": "uh, just the other color with, uh, with Rafael, uh, talking about book to bill, um, as we've a lot of our revenue on consignment, we've got ti dot com, uh, you know, the actual backlog isn't quite as meaningful as what it, uh, used",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1320.0,
+        "end_time": 1335.0,
+        "text": "to be. So, uh, as he said, uh, it's just not a number that, uh, um, that, that we look at or measure or we've talked about. And, and sometimes, so it isn't quite as helpful as what it used to be. So thank you, Harlan and we'll go to the next caller, please.",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1335.0,
+        "end_time": 1350.0,
+        "text": "And we'll go next to Stacy Rasgon of Bernstein Research. Hi guys. Thanks for taking my question. For the first one, I wanted to ask about the near term, um, micron impact. I know you said seventy five million in, in cost impact in the model next year,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1350.0,
+        "end_time": 1365.0,
+        "text": "those costs don't go away, right? That's that's seven five million a quarter is, is people correct? And doesn't include depreciation- Yeah. Or anything else? Is it just people that, like, how do you think about that, like what that, that incremental cost long term? Very good, uh, Stacy, a good direct question.",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1365.0,
+        "end_time": 1380.0,
+        "text": "So, yes, uh, that seventy five million is, uh, mainly people and direct cost, not depreciation. Uh, depreciation will not start until about first quarter twenty three, when we start, uh, production, just the way the, the rules work, uh, on that",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1380.0,
+        "end_time": 1395.0,
+        "text": "front. Um, and that seventy five million, uh, they might, we're still working through the details, but, uh, we currently believe that, uh, the most likely scenarios that most of that cost will go through the restructuring charges slash other line until we start",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1395.0,
+        "end_time": 1410.0,
+        "text": "production, right. And then at that point, uh, the majority of the costs would go to the, the CRO line. Uh, now, the costs actually do increase over time as we increase production right. But I think where you're going is that, uh, as that happens and those course those",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1410.0,
+        "end_time": 1425.0,
+        "text": "costs are then absorbed, uh, by revenue, right? Uh, now how quickly those are absorbed beyond utilization, under utilization et cetera, that just depends how quickly we, we, uh, we ramp that factory, right. Uh, you know, cle clearly, at the beginning",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1425.0,
+        "end_time": 1440.0,
+        "text": "there, we, there won't be, you know, a hundred percent absorption and we'll, we'll get to that, uh, uh, at some point. But we'll, you know, we're not gonna, you know, that that's, uh, that's in twenty twenty three. So we'll get to that at some point to give you, to give you some details. And, and in February the capital management call, I",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1440.0,
+        "end_time": 1455.0,
+        "text": "think we'll frame it kind of the bigger picture of that along with our other CapEx, uh, investments and you get a better sense of, uh, of how that's gonna play out. Your follow on Stace? And it looks like Stacy has disconnected. Okay.",
+        "topic_present": 1
+    },
+    {
+        "start_time": 1455.0,
+        "end_time": 1470.0,
+        "text": "Okay. If you have a follow on, let us, let us know Stacy, we'll go to the next caller, please. And we'll go next to Ross Seymore of Deutsche Bank. Hey guys, thanks for letting me ask a question. Uh, Dave, Rafael,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1470.0,
+        "end_time": 1485.0,
+        "text": "I wanted to talk about the quarter you reported and, and get into some of the supply dena uh, supply demand dynamics. Uh, it was the smallest beat to your original revenue guidance you guys have had, uh, in a year. And I realized that it's been exceedingly volatile in the last year, but",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1485.0,
+        "end_time": 1500.0,
+        "text": "I wondered, it was that the demand profi uh, the demand, uh, profile changing from those investors that selectivity changing that you're talking about, or did supply play a role in that where you just couldn't meet up to the demand? Just trying to get what really changed versus",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1500.0,
+        "end_time": 1515.0,
+        "text": "whatever level of conservatism you had built into the prior quarters when you beat by bigger deltas. Yeah. you I think you said demand from investors. I think you meant to say demand from cu uh, customers, right, uh, right Ross? Yes. Sorry about that. Yeah. Yeah, no, it's okay.",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1515.0,
+        "end_time": 1530.0,
+        "text": "Uh, certainly if any, uh, investors want to buy semiconductors from us, we'll be happy to, uh, sell 'em. But, uh, um, but yeah, so I, you know, I just say that overall the quarter, you know, came in as we expected it to right. And, uh, um, and, and,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1530.0,
+        "end_time": 1545.0,
+        "text": "and that's a statement, uh, you know, as we said, in the prepared remarks and we looked across, uh, geographies and products and, uh, product groups and, um, end markets, you know, those types of cuts. So, um,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1545.0,
+        "end_time": 1560.0,
+        "text": "there wasn't like one, uh, area that was, uh, underperformed or outperformed what we were expecting. Um, but again, the, the main, uh, the main thing of, uh, what was different this quarter versus last quarter was really where customers were coming in and, and, uh,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1560.0,
+        "end_time": 1575.0,
+        "text": "uh, requesting expedites and, and upsides, uh, from us. Uh, and, and those upsides were much, much more narrow, uh, and focused just on, uh, on, on few products. So, uh, that was really what the difference was. If you're looking for, you know, what was different this quarter",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1575.0,
+        "end_time": 1590.0,
+        "text": "versus last quarter and those types of things. Uh, that's what I would point to, to say, uh, what's changed in the, in the last ninety days. Thanks for the help on that. And I guess as my follow up, uh, a similarly toned question. You mentioned that lead times",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1590.0,
+        "end_time": 1605.0,
+        "text": "remain extended, but are stable and then you, you talked about that whole selectivity dynamic. What would you imagine, uh, would change the lead times? Is it gonna be your supply incrementally rising or, or more so with Lehi, or is the selectivity something, as",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1605.0,
+        "end_time": 1620.0,
+        "text": "you guys look back and are, are students of cycles, is the demand side and that selectivity side more likely to impact the lead times going forward? Well, uh, you, as you know, uh, you've been through many cycles, uh, with us, right? It, uh, it's always",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1620.0,
+        "end_time": 1635.0,
+        "text": "a combination of both. And, uh, um, you know, we will, uh, and continue to add the incremental capacity, uh, as we have planned for, you know, some time, um, and, uh, you know, certainly as we go out in time, as we get",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1635.0,
+        "end_time": 1650.0,
+        "text": "the bigger, uh, tranches of capacity coming on with, uh, with our fab two, and then, and then l f a b, uh, you know, we'll be able to make more progress on that front. Um, and at some point, you know, uh, we know that, uh, uh, you know, things will change from",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1650.0,
+        "end_time": 1665.0,
+        "text": "a demand standpoint. And, uh, uh, so we, you know, we don't spend time trying to predict that, but we'll be ready for it. Uh, we know what we'll wanna do. And, you know, as Rafael talked about, you know, one of the top things there is we'll want to rebuild inventory, uh, to prepare for the",
+        "topic_present": 1
+    },
+    {
+        "start_time": 1665.0,
+        "end_time": 1680.0,
+        "text": "next time that that demand strengthens. Uh, so we have a long list of things that we're doing to invest in the company to, to make it stronger. So, um, you know, uh, we won't control the timing of that, but, uh, but we'll be ready, ready for it, for sure. And just to emphasize that point, right, when that",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1680.0,
+        "end_time": 1695.0,
+        "text": "adjustment happens, uh, whenever that is, uh, we will continue investing in r and d, uh, focus on the areas, uh, auto and industrial, uh, for the secular long term growth, uh, will continue to invest on, uh, CapEx, uh, in,",
+        "topic_present": 1
+    },
+    {
+        "start_time": 1695.0,
+        "end_time": 1710.0,
+        "text": "uh, to set up the company for the next ten to fifteen years, uh, with a great, uh, long term roadmap. And we will build inventory that's, uh, where Dave mentioned, that range is a hundred thirty to a hundred ninety days frankly, we'll probably end up being at the higher end of that range, just because we're feel",
+        "topic_present": 1
+    },
+    {
+        "start_time": 1710.0,
+        "end_time": 1725.0,
+        "text": "so good about, uh, the business model and, uh, how good that inventory will be and how it sets us up for the next, uh, upturn on the other side, uh, uh, given the, uh, the, the long live nature of that inventory. That's right. Yeah. Okay. Thank you, Ross. And we'll go to the next",
+        "topic_present": 1
+    },
+    {
+        "start_time": 1725.0,
+        "end_time": 1740.0,
+        "text": "caller, please. We'll go next to the Vivek Arya of Bank of America. Hello. Thanks for taking my question. Um, I just wanna get the supply side, right. Um, are customers not ordering as much",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1740.0,
+        "end_time": 1755.0,
+        "text": "from you because they don't have enough from you on the component side, or they don't have enough from others that they need, uh, to complete, uh, their bill of materials? It's both Vivek. Um, you know, there's, uh, there, there,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1755.0,
+        "end_time": 1770.0,
+        "text": "there are instances of, of both of those, uh, and sometimes it is not even semiconductors, right. It's, uh, may, may be other components that they may be, uh, missing. Um, so yeah, it's a combination of, of those things. Uh, you know, some supply chains are complex, uh, depends on,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1770.0,
+        "end_time": 1785.0,
+        "text": "uh, on, on the, on the bill of materials and the systems, uh, that, uh, that, that they're, that they're, that they're building. So, uh, it, it depends. Yeah. And Vivek, the, the new ones change is, you know, ninety days ago, a hundred eighty days ago, they were expediting everything almost, almost regardless",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1785.0,
+        "end_time": 1800.0,
+        "text": "of, of matched, uh, set position. Now they're, they're more selective in what they're expediting,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1800.0,
+        "end_time": 1815.0,
+        "text": "right. mm-hmm <affirmative>. Yeah. Follow on Vivek? Yes. Uh, thank you. Uh, could you talk specifically to the automotive, uh, market. Um, you know, this year it's, it's clear the production, um, has not been right that strong, um, but, uh, auto, uh, semiconductor sales have been pretty strong. So as it applies to TI, what do you think has been kind of the interplay between content",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1815.0,
+        "end_time": 1830.0,
+        "text": "and, and mix, or, or do you think that there is perhaps inventory stuck in the automotive, uh, supply chain somewhere that, uh, we should watch out for? Yeah, I, I, you know, I'll, I'll comment on automotive. I think I'll even extend it into industrial.",
+        "topic_present": 1
+    },
+    {
+        "start_time": 1830.0,
+        "end_time": 1845.0,
+        "text": "And, you know, those are two markets that we have long talked about that we believe that there is content growth in those markets, uh, content per system. It's easy to see in cars and, uh, you know, well reported on. I, I know Vivek",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1845.0,
+        "end_time": 1860.0,
+        "text": "in your reports that you've, uh, reported on that, uh, the content growth. You can see it in, in automotive, it's happening in industrial across thirteen different sectors, so harder, harder to see. Uh, and, you know, uh, we invest in all the markets, but, uh,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1860.0,
+        "end_time": 1875.0,
+        "text": "uh, we have a strategic focus on automotive and industrial. So you're beginning to see some of the benefits of, of those, uh, that strategic bias that we have. Uh, our channel advantages, the breadth of our products, uh, advantages in those markets",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1875.0,
+        "end_time": 1890.0,
+        "text": "as well. So there's components of that. Uh, but that said, uh, anytime that we have, uh, supply shortages in the industry, customer behavior is always very consistent. And, uh, that behavior is that they will want to build",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1890.0,
+        "end_time": 1905.0,
+        "text": "inventory to protect themselves. So, you know, whether they've already begun that or have already done that, uh, they certainly will want to do that. And, uh, at some point they'll, they'll have too much product, and that's what creates the cycles in our,",
+        "topic_present": 1
+    },
+    {
+        "start_time": 1905.0,
+        "end_time": 1920.0,
+        "text": "in our, in our industry. So, um, you know, it won't surprise us if the cycle, you know, comes to an end at some point, uh, we will be prepared for that, and we'll know what, uh, what, what we'll want to do at that, uh, at that point. So thank you for those questions and we'll go",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1920.0,
+        "end_time": 1935.0,
+        "text": "to the next caller, please. We'll go to Joe Miller of Morgan Stanley. Great. Thank you. Um, I wonder if you could talk to the hotspots, you know, is there any particular pattern that's driving which products",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1935.0,
+        "end_time": 1950.0,
+        "text": "you have in short supply? I mean, it seems like, you know, we see it most in areas like enterprise and some of the personal electronics, you know, higher volume stuff. Is, is that, is that something that you guys would agree with and do you think, is it, you know, is",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1950.0,
+        "end_time": 1965.0,
+        "text": "there more Foundry versus internal FABs? Like, is there anything in particular driving those hotspots? Yeah, I wouldn't, uh, I, I wouldn't put it down on any one thing, Joe. Um, certainly, you know, there's, uh, you know, reports of, uh, the tightness across",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1965.0,
+        "end_time": 1980.0,
+        "text": "boundaries so obviously we see that as well. So, um, there's, there's tightness in, in some lead frames. Uh, so, you know, we see that as well. Uh, other input, uh, you know, raw materials more, more compounds, uh, we have,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1980.0,
+        "end_time": 1995.0,
+        "text": "uh, you know, uh, testers, in some cases, some process technologies, uh, uh, some particular, uh, products themselves that have, uh, large number of, uh, of, of customers. Uh, so, um, and, and those hotspots",
+        "topic_present": 0
+    },
+    {
+        "start_time": 1995.0,
+        "end_time": 2010.0,
+        "text": "move around as our operations teams, uh, will sometimes, uh, uh, uh, uh, move capacity from, uh, one area to the other. So they're not always, uh, always consistent or persistent. Um, uh, sometimes they are, but, uh,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2010.0,
+        "end_time": 2025.0,
+        "text": "sometimes the they're not, and there's things that we can do to, uh, uh, to mitigate those or, or, uh, actually completely, uh, alleviate them. So, uh, and that's why as we describe them, um, you know, it's not just one particular product area or one particular product",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2025.0,
+        "end_time": 2040.0,
+        "text": "set that, uh, or even one particular market, um, or even I'd say even one particular customer that would be impacted by that, uh, uh, that you, you may, may say. Hey, uh, and just to, uh, to highlight something for maybe new listeners, uh, uh, Dave mentioned",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2040.0,
+        "end_time": 2055.0,
+        "text": "the, the foundries, uh, only about twenty percent of our, of our wafers are, uh, come from foundries, uh, the vast majority eighty percent and, and growing, uh, uh, with our investments in three hundred millimeter, uh, our internal, uh, wafers. And",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2055.0,
+        "end_time": 2070.0,
+        "text": "that just gives us much, uh, better control, uh, of our destiny and for all the reasons, uh, Dave mentioned. And, and then the, the local s uh, uh, structure or low cost that we, that we get with three hundred millimeter. Yeah. I think that makes it, uh, uh, especially",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2070.0,
+        "end_time": 2085.0,
+        "text": "clear why we believe that, uh, continues to be a strategic adva advantage for sometimes like this. So you have a follow in, Joe? Yeah. I wonder also with the, the hotspots, you know, is there a situation where you can't respond to upside in demand, and that's why it's",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2085.0,
+        "end_time": 2100.0,
+        "text": "tight, or are there actual areas where, you know, I know there's always a little bit of this, but on a broad scale where you're not meeting kind of commitments that you had made because of some of those things that are upstream from you? I, I think there's probably both, uh, both of those that, uh, that, that exist. um",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2100.0,
+        "end_time": 2115.0,
+        "text": "I mean, at a hundred twelve days of inventory, it is harder to, to respond to up side than if we were at a, you know, a hundred fifty, one sixty, a hundred ninety days of course so yeah. Yeah. Yeah. Yeah, for sure. So, okay. Well, thank you, Joe. Uh, we will go to, uh, go to the,",
+        "topic_present": 1
+    },
+    {
+        "start_time": 2115.0,
+        "end_time": 2130.0,
+        "text": "the next caller, please. Our next question comes from Christine Lee of Citi. Oh, hey, thanks guys. Um, so, uh, Dave and Rafael, you mentioned that the lead times haven't really changed, but the expedites are",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2130.0,
+        "end_time": 2145.0,
+        "text": "getting better or less bad. Um, why do you think that is? Do you think that, you know, your competitors are reducing lead times, do you think that the, the supply chain has had a, a little bit of a chance to build some buffer inventory? Why do you think the situation is getting, I guess either, either better",
+        "topic_present": 1
+    },
+    {
+        "start_time": 2145.0,
+        "end_time": 2160.0,
+        "text": "or less bad? Yeah. I, you know, Chris, I, I think that's a great question. Um, I don't know that we know the answer specifically to that question so I, I think we're trying to stick to the facts of, we can observe that behavior change. Uh, I think",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2160.0,
+        "end_time": 2175.0,
+        "text": "you're offering some, some good, uh, good theories of, uh, of why that, uh, uh, behavior may be, uh, may be changing. Uh, but, uh, you know, what we're trying to do is to stick to the facts of, uh, of what's going on, Uh, there's, you know,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2175.0,
+        "end_time": 2190.0,
+        "text": "multiple reasons why it might be changing, uh, and we'd rather not venture into, uh, you know, guessing or predicting or, uh, you know, calling, uh, what what you know, what what's driving that behavior. So you have a follow on? Yeah, I guess you can",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2190.0,
+        "end_time": 2205.0,
+        "text": "leave the guessing and predicting up to a cell siders. Um, on the, uh, since you guys don't talk about, uh, gross margin, but you do talk about free cash flow margin, uh, I think you had an all time high in, in free cash flow margin in q three, and it looks like there's,",
+        "topic_present": 1
+    },
+    {
+        "start_time": 2205.0,
+        "end_time": 2220.0,
+        "text": "uh, some headwinds coming down the pike, um, in, in the, I guess, near to medium term. Is there any reason, uh, for us to believe that, you know, you've seen your, your all time peak and free cash flow margin or event eventually could it get back above where it was, uh, in the most recent quarter?",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2220.0,
+        "end_time": 2235.0,
+        "text": "Sure. I'll take that, uh, Chris. And Chris, you know us, uh, very well, you follow us for a long time. You know, we do not manage to free cashflow margin percent, right? That is not what, uh, what drives",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2235.0,
+        "end_time": 2250.0,
+        "text": "the long term value for the owners is the long term growth of free cash dollars right. Uh, and to your point, there, there are some headwinds on that, uh, with the, with the CapEx, uh, uh, that we're talking about to set up the company well for, uh, for the future.",
+        "topic_present": 1
+    },
+    {
+        "start_time": 2250.0,
+        "end_time": 2265.0,
+        "text": "But of course, we, we are only doing that because we think that is gonna drive even faster growth of, of, uh, the long term trend of free cash flow dollars. So we'll continue to, uh, to focus on that because we think that is, uh, that is what drives, uh, value for the longer owners.",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2265.0,
+        "end_time": 2280.0,
+        "text": "Okay. Thank you, Chris. And we've got time for one more, uh, call. And we'll go to <inaudible> Sandberg of <inaudible>. Yes. Uh, thank you for squeezing me in. Um, as far as the question on",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2280.0,
+        "end_time": 2295.0,
+        "text": "controlling the supply chain, you talked about eighty percent outsourced. Now, I, I believe that's kind of the more advanced nodes, but should we assume that that eighty percent is, is just gonna grow, uh, and that you're gonna rely less and less on foundries going forward? Yeah. So you said eighty outsourced,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2295.0,
+        "end_time": 2310.0,
+        "text": "is eighty insourced just to make sure. eighty percent- Sorry, sorry. Right. Yeah. Sorry. Yeah. So 80, 80%, uh, our own wafers. And, um, yeah, that should grow over time as we continue to add, uh, this wafer, uh, FABS",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2310.0,
+        "end_time": 2325.0,
+        "text": "that, uh, that we're talking about all in three hundred millimeter, which, with you know, the efficiency of three hundred millimeter is huge, right? Because, uh, uh, what three hundred millimeter wafer accounts for almost two point three times a, a two hundred millimeter wafer, and these are pretty large, uh,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2325.0,
+        "end_time": 2340.0,
+        "text": "wafers for efficiency purposes. In fact, r f a b two is, uh, is gonna be bigger than r f a b one. So, so yeah, it's reasonable to, to, to the dues that, uh, that, uh, percent will increase over time. Very good. And as of follow up, and, and I don't want",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2340.0,
+        "end_time": 2355.0,
+        "text": "to steal your thunder from February, but in the past, you've talked about capacity of twenty two billion dollars. Obviously you're going to go through capacity expansion here for the next twelve to eighteen months. Uh, you know would you share any new numbers with those? I don't know, twenty five, twenty eight? Uh, anything",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2355.0,
+        "end_time": 2370.0,
+        "text": "at all? Yeah, no. So great question. Thanks for the setup for February. We, we will talk about, uh, that in, in February. So, uh, until then, uh, what I would tell you is, uh, you know, you've heard us talk about demo sticks and r f a b one. Uh, roughly,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2370.0,
+        "end_time": 2385.0,
+        "text": "uh, that's, uh, potential of about eight billion dollars of, uh, of annual revenue on three hundred million than rfab two. And this is all dependent, highly dependent on mix, right? So these are not exact numbers, but, uh, r f a b two, uh, with that caveat,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2385.0,
+        "end_time": 2400.0,
+        "text": "rfab two should add another five billion dollars of annual revenue again, when it's full week web price. So not, obviously not on day one, and, uh, Lehi should add three to four billion of, of annual revenue. So, you know, we're thinking in, in terms of that, and we're thinking even beyond",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2400.0,
+        "end_time": 2415.0,
+        "text": "that, right, because as we, as we, uh, look at, uh, at the company's potential for growth into the next ten and, and fifteen years then, uh, we, we, we, we're not stopping, uh, just thinking, uh, in the next, uh, four or five years, we're thinking ten, uh, fifteen years. And",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2415.0,
+        "end_time": 2430.0,
+        "text": "we'll talk about that, uh, in February in more detail. That's great. And I think we can go ahead and wrap up, uh, Rafael see if you'd like? Okay. So, uh, uh, let me wrap up by reiterating what we have said previously. At our core",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2430.0,
+        "end_time": 2445.0,
+        "text": "we're engineers and technology is the foundation of our company, but ultimately our objective and the best metric to measure progress and generate long-term value for owners is the growth of free cash over share. While we strive to achieve our objective, we will continue to pursue our three ambitions.",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2445.0,
+        "end_time": 2460.0,
+        "text": "We will act like owners who will own the company for decades, we will adapt and succeed in a world that's ever changing, and we will be a company that we're personally proud to be a part of and would want as our neighbor. When we're successful, our employees, customers, communities,",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2460.0,
+        "end_time": 2475.0,
+        "text": "and owners, all benefit. Thank you, and have a good evening. And so this concludes today's call. Thank you for your participation. You may now",
+        "topic_present": 0
+    },
+    {
+        "start_time": 2475.0,
+        "end_time": 2490.0,
+        "text": "disconnect.",
+        "topic_present": 0
+    }
+]
